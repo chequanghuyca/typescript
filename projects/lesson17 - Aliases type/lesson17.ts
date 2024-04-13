@@ -11,4 +11,4 @@ function addNumberOrString(a: huycheType, b: number | string) {
 
 //loi khi running
 //loi khi compile
-console.log(">>> check: ", addNumberOrString('eric ', "Chế Quang Huy"));
+console.log('>>> check: ', addNumberOrString('eric ', 'Chế Quang Huy'));
