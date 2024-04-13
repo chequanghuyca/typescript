@@ -18,3 +18,6 @@ let pro1: {
     age: 25 //age
 }
 
+// Kiểu dữ liệu object của Typescript, tượng trưng cho tất cả dữ liệu KHÔNG là kiểu dữ liệu nguyên thủy,
+
+//     bao gồm: string, number, boolean, null, undefined, bigint, symbol.
