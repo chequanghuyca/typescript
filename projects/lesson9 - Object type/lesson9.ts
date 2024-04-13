@@ -2,11 +2,11 @@ let pro1: {
     name: string,
     age: number
 } = {
-    name: "Huy Che", //string
+    name: 'Huy Che', //string
     age: 25 //age
 }
 
-console.log(">>> check pro1 = ", pro1.name);
+console.log('>>> check pro1 = ', pro1.name);
 
 // Kiểu dữ liệu object của Typescript, tượng trưng cho tất cả dữ liệu KHÔNG là kiểu dữ liệu nguyên thủy,
 

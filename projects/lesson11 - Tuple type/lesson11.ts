@@ -10,7 +10,7 @@ let skills3: [boolean, string, number?];
 skills3 = [true, 'Eric'];
 
 
-// "Tuple": a structure of data that has several parts
+// 'Tuple': a structure of data that has several parts
 
 // Hoạt động giống như Array, tuy nhiên, có thêm một vài quy định bắt buộc:
 

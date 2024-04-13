@@ -1,1 +1,1 @@
-let myarr = ["Che", "Chế Quang Huy", 25]
+let myArr = ['Che', 'Chế Quang Huy', 25]

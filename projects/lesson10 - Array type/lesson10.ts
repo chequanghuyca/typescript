@@ -4,4 +4,4 @@ test2.push('Chế Quang Huy');
 
 test2.push(25);
 
-console.log(">>> check array: ", test2)
+console.log('>>> check array: ', test2);
