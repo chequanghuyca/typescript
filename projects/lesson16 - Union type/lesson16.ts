@@ -10,5 +10,4 @@ function addNumberOrString(a: number | string | object | boolean, b: number | st
 
 //loi khi running
 //loi khi compile
-console.log(">>> check: ", addNumberOrString(true, "Hoi dan it"))
-
+console.log('>>> check: ', addNumberOrString(true, 'Huy Che'));

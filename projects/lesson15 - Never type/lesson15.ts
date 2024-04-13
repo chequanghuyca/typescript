@@ -1,5 +1,5 @@
 function handleException(errorMessage: string): never {
-    throw Error(errorMessage)
+    throw Error(errorMessage);
 }
 
 function runInfinity(): void {
@@ -11,4 +11,4 @@ function runInfinity(): void {
 // handleException('just a test error');
 
 let a = handleException('just a test error');
-console.log('>> check a = ', a)
+console.log('>> check a = ', a);

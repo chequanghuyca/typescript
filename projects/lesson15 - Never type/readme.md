@@ -24,4 +24,15 @@
         handleException('just a test error');
         runInfinity();
 
-    ==> never type được dùng để ám chỉ một giá trị sẽ không bao giờ xảy ra. Ví dụ như một hàm sẽ throw exception, hoặc một hàm sẽ chạy vô hạn.
+    ==> never type được dùng để ám chỉ một giá trị sẽ không bao giờ xảy ra. Ví dụ như một hàm sẽ
+    throw exception, hoặc một hàm sẽ chạy vô hạn.
+
+## Phân biệt Never và Void
+
+    Khi sử dụng void cho function, thực ra nó trả ra 'undefined'
+        function logging(): void {
+            console.log('Server logging...');
+        }
+
+        let check: void = logging();
+        console.log('>>> check: ', check); //undefined
