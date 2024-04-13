@@ -1,4 +1,4 @@
-## I. Giới thiệu về union type
+## Giới thiệu về union type
 
 union ~ join
 
