@@ -3,7 +3,7 @@ const sum = (a: number, b: number): number => {
 }
 
 const handleLogs = (message: string): void => {
-    console.log(">>> message: ", message)
+    console.log('>>> message: ', message)
 }
 
 // Giới thiệu về void type:
