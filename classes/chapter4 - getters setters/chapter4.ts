@@ -27,7 +27,7 @@ class Person7 {
 
     // Sử dụng ! để khai báo biến sẽ được gán giá trị sau.
 
-    public get age() { // Getter
+    public get age(): number { // Getter
         return this._age;
     }
 
