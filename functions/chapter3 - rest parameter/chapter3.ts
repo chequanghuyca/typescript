@@ -16,3 +16,9 @@ function display(...rest: string[]) {
     }
 }
 display('A', 'B', 'C', 'D', 'E');
+
+// Ví dụ:
+function display2(a: string, b: string, ...rest: string[]) {
+    return a + b + rest.join(',');
+}
+console.log('>>> display2', display2('A', 'B', 'C', 'D', 'E')); // ABC,D,E
